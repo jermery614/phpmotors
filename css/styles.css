@@ -1,0 +1,223 @@
+html{
+    background: url(/phpmotors/images/site/checkerboard.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+   }
+
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+/* CSS for the body of the web page. */
+
+body {
+    background-color: whitesmoke;
+    border: .5rem solid#4c96d7;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-family: monospace;
+    font-size: x-large;
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+
+#acc{
+    text-decoration: none;
+    color: #747474;
+    float: right;
+    font-size: xx-large;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    
+}
+#acc:hover{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+#salutation {
+    text-align: right;
+    margin-right: 1rem;
+    font-size: xx-large;
+    padding: 1rem;
+    
+     
+}
+#loggedin{
+    padding: .5rem;
+    margin-left: 3rem;
+}
+
+#welcomeback{
+    margin-left: 3rem;
+}
+
+#warningMessage{
+    font-size: xx-large;
+}
+
+
+h1{
+    margin-left: 3.5rem;
+}
+/* Dealing with the button. */
+#purchase {
+    width: 18rem;
+    height: 5rem;
+    border-radius: 1rem; 
+}
+
+/* making the picture bigger */
+#deloreanpic{
+    padding-left: .5rem;
+    width: 98%;
+
+}
+#deloreandescip {
+    font-size: 28px;
+    padding-left: 2rem;
+    padding-top: .2rem;
+    color: #216daf;
+}
+
+/* not member link on /view/login.php */
+#notMember{
+    text-decoration: none;
+    font-size: medium;
+}
+
+#notMember:hover{
+    text-decoration: underline;
+    
+}
+
+#requiredText {
+    display: inline-block;
+    font-size: small;
+}
+
+#registrationlink{
+    display: inline-block;
+    font-size: smaller;
+}
+
+/* grid area for better web design */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    /* grid-template-rows: repeat(6,1fr ); */
+    justify-content: center;
+    align-content: center;
+    gap: .5rem;
+    grid-auto-flow: column;
+
+}
+
+.upgrades:nth-of-type(2){
+    
+    grid-column: 1/3;
+    grid-row: 1/2 ;
+    padding-left: 3rem;
+}
+
+.upgrades:nth-of-type(3){
+    background-color: #4c96d7;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    padding-left: 3rem;
+    margin-left: 1rem;
+    
+}
+
+.upgrades:nth-of-type(4){
+    
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-left: 3rem;
+}
+
+.upgrades:nth-of-type(5){
+   background-color: #4c96d7;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-left: 4rem;
+} 
+
+
+.upgrades:nth-of-type(6){
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-left: 3rem;
+}
+.upgrades:nth-of-type(7){
+    background-color:#4c96d7;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding-left: 3rem;
+    margin-left: 1rem;
+}
+.upgrades:nth-of-type(8){
+    
+    grid-column: 1/2;
+    grid-row: 5/6;
+    padding-left: 3rem;
+}
+.upgrades:nth-of-type(9){
+    background-color:#4c96d7;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-left: 3rem;
+} 
+.upgrades:nth-of-type(10){
+    grid-column: 2/3;
+    grid-row:  5/6;
+    padding-left: 3rem;
+}
+
+.upgrades:nth-of-type(1){
+    grid-column: 4/8;
+    grid-row: 1/6;
+    padding-top: 0rem;
+}
+.upgrades img{
+    justify-content: center;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+}
+
+.upgrades ul li{
+    margin-top: 1.25rem;
+
+}
+textarea {
+    width: 15%;
+}
+
+/* Altering specific items in the <ul> tag */
+
+#item1,#item2, #item3, #item4,#item5{
+    font-size: 24px;
+}
+
+
+/* This is for the footer */
+footer {
+    border-top: 3.5px solid #3a3a3a;
+    text-align: center;
+    padding: .1rem;
+}
